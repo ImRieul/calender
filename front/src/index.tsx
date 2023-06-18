@@ -1,20 +1,16 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import './index.css';
-import App from './App';
 import reportWebVitals from './reportWebVitals';
-import CalenderMonth from './calender/CalenderMonth';
-import CalenderDay from './calender/CalenderDay';
 import CalenderWeek from "./calender/CalenderWeek";
+import CalenderMonth from "./calender/CalenderMonth";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
 root.render(
   <React.StrictMode>
-    {/*<CalenderMonth year={2021} month={5} />*/}
-    {/* <App /> */}
-    <CalenderWeek />
+    <CalenderMonth year={2021} month={5} />
   </React.StrictMode>
 );
 
