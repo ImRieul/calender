@@ -10,11 +10,11 @@ const CalenderDay: React.FC<DayProps> = ({num}) => {
 
   return (
     <div className={'calenderDay'}>
-        <div className={'dayNum'}>
-            {num || ''}
-        </div>
-        <div>
-        </div>
+      <div className={'dayNum'}>
+        {num || ''}
+      </div>
+      <div>
+      </div>
     </div>
   )
 }

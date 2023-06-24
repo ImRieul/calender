@@ -4,13 +4,18 @@ import './index.css';
 import reportWebVitals from './reportWebVitals';
 import CalenderWeek from "./calender/CalenderWeek";
 import CalenderMonth from "./calender/CalenderMonth";
+import { BrowserRouter } from 'react-router-dom';
+import App from "./App";
 
 const root = ReactDOM.createRoot(
   document.getElementById('root') as HTMLElement
 );
+
 root.render(
   <React.StrictMode>
-    <CalenderMonth year={2021} month={5} />
+    <BrowserRouter>
+      <App />
+    </BrowserRouter>
   </React.StrictMode>
 );
 
