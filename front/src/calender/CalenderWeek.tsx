@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import CalenderDay from "./CalenderDay";
-import './CalenderWeek.css';
+import './css/CalenderWeek.css';
 
 
 interface WeekProps {
