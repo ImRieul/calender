@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './CalenderDay.css';
+import './css/CalenderDay.css';
 
 
 interface DayProps {
@@ -11,7 +11,7 @@ const CalenderDay: React.FC<DayProps> = ({num}) => {
   return (
     <div className={'calenderDay'}>
         <div className={'dayNum'}>
-            {num}
+            {num || ''}
         </div>
         <div>
         </div>
